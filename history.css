@@ -1,0 +1,130 @@
+/*
+
+   Author: KelliAnn Ramirez
+   Date: 1/9/18
+
+*/
+
+/*This style sheet targets elements in the history.htm, map.htm,
+  direct.htm, food.htm and climate.htm files. bottom part of file
+  styles the vertical nav on the home.htm file*/
+
+#temple {
+  width: 400px;
+  float: right;
+  margin-right: 650px;
+  border: 5px outset HotPink;
+  margin-top: 35px;
+}
+
+#direct {
+  margin-top: 0px;
+}
+
+#map {
+  border: 5px outset HotPink;
+}
+
+#mapp {
+  width: 42%;
+}
+
+/* Positions the graph in the climate.htm file, gives a pink outset
+   border around it*/
+
+#graph {
+  width: 435px;
+  float: right;
+  margin-right: 630px;
+  border: 5px outset HotPink;
+}
+
+#train {
+  width: 435px;
+  float: right;
+  margin-right: 600px;
+  border: 5px outset HotPink;
+}
+
+#p4 {
+  float: right;
+  margin-right: 585px;
+  margin-top: -224px;
+}
+
+/* Positions the images in the food.htm file, gives a pink outset
+   border around it*/
+
+#foodp img {
+  width: 250px;
+  float: right;
+  margin-right: 770px;
+  margin-top: 40px;
+  border: 5px outset HotPink;
+}
+
+#chinese {
+  margin-top: 80px;
+}
+
+#sushi {
+  margin-top: 40px;
+}
+
+#mascot {
+  width: 300px;
+  float: right;
+  margin-right: 770px;
+  margin-top: 130px;
+}
+
+/* The various footer styles position the footer at the bottom of the
+   content with appropriate margin space*/
+
+footer, #mf, #ff {
+  vertical-align: bottom;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+#mf {
+  margin-top: 100px;
+}
+
+#ff {
+  margin-top: 0;
+}
+
+/* Styles only the vertical nav list on the home.htm page*/
+
+#side {
+  width: 15%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  
+  padding-left: 10px;
+  margin-top: 59px;
+  margin-left: -30px;
+}
+
+#side ul li {
+  list-style-type: none;
+  list-style-image: url(airplane2.png);
+  font-variant: small-caps;
+  
+}
+
+/* targets hyperlinks of vertical nav, removes line underneath text
+   and sets color*/
+
+#side ul li a {
+  display: block;
+  text-decoration: none;
+  color: MintCream;
+}

@@ -1,0 +1,150 @@
+/*
+   Author: KelliAnn Ramirez
+   Date: 12/04/18
+    General style sheet for almost everything, vertical nav styled in
+    side.css file
+*/
+
+/*collapses borders, don't need to take in border spacing for sizing
+*/
+* {
+  box-sizing: border-box;
+}
+
+/*Sets body size, background and its size, as well as fonts */
+
+body {
+  width: 1571px;
+  height: 750px;
+  background: url(cherry4.jpg) no-repeat;
+  background-size: cover;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-left: 50px;
+}
+
+/* Sets styles for the background color, positioning and font style
+   of nav lists and default positioning for section element */
+   
+#body {
+  margin: auto;
+  width: 100%;
+  margin-left: 90px;
+}
+
+#bodytext {
+  width: 36.5%;
+  float: left;
+}
+
+#main {
+  margin-left: 50px;
+}
+
+#main ul li {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-variant: small-caps;
+  list-style: none;
+  height: 37px;
+  padding: 5px;
+  overflow-y: hidden;
+}
+
+/* Sets styles for horizontal nav hyperlinks: doesn't have line
+   underneath & sets color*/
+
+#main ul li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: HotPink;
+}
+
+/* Sets color for h1, h2, header nd p. for p, makes round corners*/
+
+h1 {
+  color: HotPink;
+}
+
+h2 {
+ color: LightCoral;
+}
+
+header {
+  margin-left: 50px;
+}
+
+p {
+  color: MintCream;
+  width: 452px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Styles for images on the home.htm hotels.htm and sightseeing.htm
+   files, sets size, position and border */
+   
+#alps, #apple {
+  width: 250px;
+  float: right;
+  margin: 5px;
+  border: 5px outset HotPink;
+}
+
+#apple {
+  float: left;
+}
+/* #mainp targets the paragraphs in the hotels.htm and
+   sightseeing.htm, styles all the paragraphs the same way*/
+#mainp {
+  margin-left: 90px;
+}
+
+#mainp img {
+  width: 250px;
+  float: right;
+  margin-right: 725px;
+  border: 5px outset HotPink;
+}
+
+#hotel1, #hotel2 {
+  margin-top: 100px;
+}
+/* #sights1, #sights2, #sights3 targets the images on the
+   sightseeing.htm file, sets spacing between whatever's above it*/
+#sights1, #temple {
+  margin-top: 80px;
+}
+
+#sights2 {
+  margin-top: 60px;
+}
+
+#sights3 {
+  margin-top: 90px;
+}
+
+/* Aligns the text within the footer box */
+
+footer {
+  clear: left;
+  width: 84%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Sets the styles for the font, spacing and background*/
+
+footer address {
+  width: 100%;
+  clear: left;
+  text-align: center;
+  font-size: 0.8em;
+  font-variant: small-caps;
+  margin-top: 5px;
+  border-top: 3px outset HotPink;
+  background-color: Thistle;
+}
